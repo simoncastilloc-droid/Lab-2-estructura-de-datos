@@ -153,3 +153,14 @@ list.c:104:8: error: ‘lista’ undeclared (first use in this function); did yo
       |        list
 list.c:104:8: note: each undeclared identifier is reported only once for each function it appears in
 1a997b2
+Fri Aug 21 04:13:07 AM UTC 2026: 
+ list.c | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+Compilation failed
+In file included from test.c:5:
+list.c: In function ‘pushFront’:
+list.c:105:20: error: statement with no effect [-Werror=unused-value]
+  105 |         list->tail == nuevoNodo;
+      |         ~~~~~~~~~~~^~~~~~~~~~~~
+cc1: all warnings being treated as errors
+3e85b18
