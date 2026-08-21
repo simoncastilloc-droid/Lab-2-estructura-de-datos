@@ -113,8 +113,8 @@ void pushBack(List * list, void * data)
 
     if(list->head == NULL)
     {
-        list->head == nuevoNodo;
-        list->tail == nuevoNodo;
+        list->head = nuevoNodo;
+        list->tail = nuevoNodo;
     }
     else
     {
