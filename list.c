@@ -174,10 +174,10 @@ void * popCurrent(List * list)
         list->tail = eliminado->prev;
     list->current = siguiente;
 
-    void *data = eliminado->data;
+    void* data = eliminado->data;
     free(eliminado);
     
-    return NULL;
+    return data;
 }
 
 void cleanList(List * list) 
