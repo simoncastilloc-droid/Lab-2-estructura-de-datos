@@ -141,3 +141,15 @@ Fri Aug 21 04:07:51 AM UTC 2026:
  tests:  9|3
 total_score: 30/60
 a345f73
+Fri Aug 21 04:12:47 AM UTC 2026: 
+ list.c | 13 +++++++++++--
+ 1 file changed, 11 insertions(+), 2 deletions(-)
+Compilation failed
+In file included from test.c:5:
+list.c: In function ‘pushFront’:
+list.c:104:8: error: ‘lista’ undeclared (first use in this function); did you mean ‘list’?
+  104 |     if(lista->tail == NULL)
+      |        ^~~~~
+      |        list
+list.c:104:8: note: each undeclared identifier is reported only once for each function it appears in
+1a997b2
